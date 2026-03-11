@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "author": "Nicolas GOSSARD",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-breadboard",
+      "id": "bb1",
+      "top": 227.4,
+      "left": -160.4,
+      "attrs": { "color": "#575756" }
+    },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 499.8, "left": 47.4, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 287.9,
+      "left": -82.9,
+      "rotate": 90,
+      "attrs": { "color": "black", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 316.2,
+      "left": -131.4,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 316.7,
+      "left": -34.9,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": 287.9,
+      "left": 13.1,
+      "rotate": 90,
+      "attrs": { "color": "black", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn5",
+      "top": 316.7,
+      "left": 61.1,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn6",
+      "top": 316.7,
+      "left": 109.1,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn7",
+      "top": 287.9,
+      "left": 157.1,
+      "rotate": 90,
+      "attrs": { "color": "black", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn8",
+      "top": 316.7,
+      "left": 205.1,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn9",
+      "top": 287.4,
+      "left": 252.6,
+      "rotate": 90,
+      "attrs": { "color": "black", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn10",
+      "top": 316.2,
+      "left": 300.6,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn11",
+      "top": 287.4,
+      "left": 348.6,
+      "rotate": 90,
+      "attrs": { "color": "black", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn12",
+      "top": 316.2,
+      "left": 396.6,
+      "rotate": 90,
+      "attrs": { "color": "white", "xray": "1" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 559.2,
+      "left": -36.6,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": 278.4,
+      "left": -105.6,
+      "attrs": { "text": "C\n" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": 249.6,
+      "left": -57.6,
+      "attrs": { "text": "C#\n" }
+    },
+    { "type": "wokwi-text", "id": "text3", "top": 278.4, "left": -9.6, "attrs": { "text": "D" } },
+    { "type": "wokwi-text", "id": "text4", "top": 249.6, "left": 38.4, "attrs": { "text": "D#" } },
+    { "type": "wokwi-text", "id": "text5", "top": 278.4, "left": 86.4, "attrs": { "text": "E" } },
+    { "type": "wokwi-text", "id": "text6", "top": 278.4, "left": 134.4, "attrs": { "text": "F" } },
+    {
+      "type": "wokwi-text",
+      "id": "text7",
+      "top": 249.6,
+      "left": 182.4,
+      "attrs": { "text": "F#" }
+    },
+    { "type": "wokwi-text", "id": "text8", "top": 278.4, "left": 230.4, "attrs": { "text": "G" } },
+    {
+      "type": "wokwi-text",
+      "id": "text9",
+      "top": 249.6,
+      "left": 278.4,
+      "attrs": { "text": "G#" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text10",
+      "top": 278.4,
+      "left": 326.4,
+      "attrs": { "text": "A" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text11",
+      "top": 249.6,
+      "left": 374.4,
+      "attrs": { "text": "A#" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text12",
+      "top": 278.4,
+      "left": 422.4,
+      "attrs": { "text": "B" }
+    }
+  ],
+  "connections": [
+    [ "uno:GND.1", "bb1:bn.1", "blue", [ "h-277.3" ] ],
+    [ "bb1:4b.j", "bb1:bn.2", "blue", [ "v0" ] ],
+    [ "bb1:9b.j", "bb1:bn.6", "blue", [ "v0" ] ],
+    [ "bb1:14b.j", "bb1:bn.11", "blue", [ "v28.8", "h10.4" ] ],
+    [ "bb1:19b.j", "bb1:bn.15", "blue", [ "v0" ] ],
+    [ "bb1:24b.j", "bb1:bn.19", "blue", [ "v0" ] ],
+    [ "bb1:29b.j", "bb1:bn.23", "blue", [ "v0" ] ],
+    [ "bb1:34b.j", "bb1:bn.27", "blue", [ "v0" ] ],
+    [ "bb1:39b.j", "bb1:bn.31", "blue", [ "v0" ] ],
+    [ "bb1:44b.j", "bb1:bn.36", "blue", [ "v28.8", "h10.4" ] ],
+    [ "bb1:49b.j", "bb1:bn.40", "blue", [ "v0" ] ],
+    [ "bb1:54b.j", "bb1:bn.44", "blue", [ "v0" ] ],
+    [ "bb1:59b.j", "bb1:bn.48", "blue", [ "v0" ] ],
+    [ "bb1:61b.j", "uno:2", "white", [ "v115.2", "h-157.7" ] ],
+    [ "bb1:51b.j", "uno:4", "white", [ "v96", "h-80.7" ] ],
+    [ "bb1:56b.j", "uno:3", "black", [ "v105.6", "h-119.2" ] ],
+    [ "bb1:46b.j", "uno:5", "black", [ "v86.4", "h-42.2" ] ],
+    [ "bb1:6b.j", "uno:13", "white", [ "v115.2", "h258.8" ] ],
+    [ "bb1:11b.j", "uno:12", "black", [ "v105.6", "h220.3" ] ],
+    [ "bb1:16b.j", "uno:11", "white", [ "v96", "h181.8" ] ],
+    [ "bb1:21b.j", "uno:10", "black", [ "v86.4", "h143.3" ] ],
+    [ "bb1:26b.j", "uno:9", "white", [ "v76.8", "h104.8" ] ],
+    [ "bb1:41b.j", "uno:6", "white", [ "v124.8" ] ],
+    [ "bb1:31b.j", "uno:8", "white", [ "v67.2", "h66.8" ] ],
+    [ "bb1:36b.j", "uno:7", "black", [ "v57.6", "h34.8" ] ],
+    [ "bz1:2", "uno:A0", "gray", [ "h-0.4", "v76.8", "h265" ] ],
+    [ "bz1:1", "uno:GND.2", "blue", [ "v9.6", "v57.6", "h236.1" ] ],
+    [ "btn1:1.l", "bb1:11t.a", "", [ "$bb" ] ],
+    [ "btn1:2.l", "bb1:9t.a", "", [ "$bb" ] ],
+    [ "btn1:1.r", "bb1:11b.f", "", [ "$bb" ] ],
+    [ "btn1:2.r", "bb1:9b.f", "", [ "$bb" ] ],
+    [ "btn3:1.l", "bb1:16t.d", "", [ "$bb" ] ],
+    [ "btn3:2.l", "bb1:14t.d", "", [ "$bb" ] ],
+    [ "btn3:1.r", "bb1:16b.i", "", [ "$bb" ] ],
+    [ "btn3:2.r", "bb1:14b.i", "", [ "$bb" ] ],
+    [ "btn4:1.l", "bb1:21t.a", "", [ "$bb" ] ],
+    [ "btn4:2.l", "bb1:19t.a", "", [ "$bb" ] ],
+    [ "btn4:1.r", "bb1:21b.f", "", [ "$bb" ] ],
+    [ "btn4:2.r", "bb1:19b.f", "", [ "$bb" ] ],
+    [ "btn5:1.l", "bb1:26t.d", "", [ "$bb" ] ],
+    [ "btn5:2.l", "bb1:24t.d", "", [ "$bb" ] ],
+    [ "btn5:1.r", "bb1:26b.i", "", [ "$bb" ] ],
+    [ "btn5:2.r", "bb1:24b.i", "", [ "$bb" ] ],
+    [ "btn6:1.l", "bb1:31t.d", "", [ "$bb" ] ],
+    [ "btn6:2.l", "bb1:29t.d", "", [ "$bb" ] ],
+    [ "btn6:1.r", "bb1:31b.i", "", [ "$bb" ] ],
+    [ "btn6:2.r", "bb1:29b.i", "", [ "$bb" ] ],
+    [ "btn7:1.l", "bb1:36t.a", "", [ "$bb" ] ],
+    [ "btn7:2.l", "bb1:34t.a", "", [ "$bb" ] ],
+    [ "btn7:1.r", "bb1:36b.f", "", [ "$bb" ] ],
+    [ "btn7:2.r", "bb1:34b.f", "", [ "$bb" ] ],
+    [ "btn8:1.l", "bb1:41t.d", "", [ "$bb" ] ],
+    [ "btn8:2.l", "bb1:39t.d", "", [ "$bb" ] ],
+    [ "btn8:1.r", "bb1:41b.i", "", [ "$bb" ] ],
+    [ "btn8:2.r", "bb1:39b.i", "", [ "$bb" ] ],
+    [ "btn9:1.l", "bb1:46t.a", "", [ "$bb" ] ],
+    [ "btn9:2.l", "bb1:44t.a", "", [ "$bb" ] ],
+    [ "btn9:1.r", "bb1:46b.f", "", [ "$bb" ] ],
+    [ "btn9:2.r", "bb1:44b.f", "", [ "$bb" ] ],
+    [ "btn10:1.l", "bb1:51t.d", "", [ "$bb" ] ],
+    [ "btn10:2.l", "bb1:49t.d", "", [ "$bb" ] ],
+    [ "btn10:1.r", "bb1:51b.i", "", [ "$bb" ] ],
+    [ "btn10:2.r", "bb1:49b.i", "", [ "$bb" ] ],
+    [ "btn11:1.l", "bb1:56t.a", "", [ "$bb" ] ],
+    [ "btn11:2.l", "bb1:54t.a", "", [ "$bb" ] ],
+    [ "btn11:1.r", "bb1:56b.f", "", [ "$bb" ] ],
+    [ "btn11:2.r", "bb1:54b.f", "", [ "$bb" ] ],
+    [ "btn12:1.l", "bb1:61t.d", "", [ "$bb" ] ],
+    [ "btn12:2.l", "bb1:59t.d", "", [ "$bb" ] ],
+    [ "btn12:1.r", "bb1:61b.i", "", [ "$bb" ] ],
+    [ "btn12:2.r", "bb1:59b.i", "", [ "$bb" ] ],
+    [ "btn2:1.l", "bb1:6t.d", "", [ "$bb" ] ],
+    [ "btn2:2.l", "bb1:4t.d", "", [ "$bb" ] ],
+    [ "btn2:1.r", "bb1:6b.i", "", [ "$bb" ] ],
+    [ "btn2:2.r", "bb1:4b.i", "", [ "$bb" ] ]
+  ],
+  "dependencies": {}
+}
