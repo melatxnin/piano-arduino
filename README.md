@@ -1,10 +1,13 @@
 # Arduino Piano (WOKWI)
 
-Simulation of a simple piano built with Arduino
+A simplified piano simulation running on Arduino.
+
+<img src="preview.gif" width="500">
 
 ## Components
 
 - Arduino Uno
+- Breadboard
 - Pushbutton (12)
 - Buzzer
 
