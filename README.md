@@ -1,6 +1,6 @@
-# Arduino Piano (WOKWI)
+# Piano - Arduino (Wokwi)
 
-A simplified piano simulation running on Arduino.
+A simple one-octave piano built with Arduino.
 
 <img src="preview.gif" width="500">
 
